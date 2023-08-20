@@ -5,6 +5,6 @@
 #include <unistd.h>
 int _putchar(char c);
 int _printf(const char *format, ...);
-int print_char(char c);
-int print_string(char *str);
+int print_char(va_list list);
+int print_string(va_list list);
 #endif
